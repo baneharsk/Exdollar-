@@ -8,7 +8,7 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // 'EX DOLLAR Token'  contract
 //
-// Deployed to :           0x429802f788915B36CFB61498d9F2cE34a45A8866 
+// Deployed to :0x429802f788915B36CFB61498d9F2cE34a45A8866 
 
 // Symbol      : EX DOLLAR
 // Name        : EX DOLLAR Token
@@ -46,7 +46,8 @@ contract SafeMath {
 
 // ----------------------------------------------------------------------------
 // ERC Token Standard #20 Interface
-// https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md
+// 
+https://github.com/baneharsk/Exdollar-.git
 // ----------------------------------------------------------------------------
 contract ERC20Interface {
     function totalSupply() public constant returns (uint);
@@ -123,8 +124,8 @@ contract EXDOLLAR Token is ERC20Interface, Owned, SafeMath {
         name = "  EX DOLLAR Token";
         decimals = 18;
         _totalSupply = 100000000000000;
-      balances[  0x429802f788915B36CFB61498d9F2cE34a45A8866      ] = _totalSupply;
-        emit Transfer(address(0),      0x429802f788915B36CFB61498d9F2cE34a45A8866   , _totalSupply);
+      balances[0x429802f788915B36CFB61498d9F2cE34a45A8866 ] = _totalSupply;
+        emit Transfer(address(0),0x429802f788915B36CFB61498d9F2cE34a45A8866   , _totalSupply);
     }
 
 
@@ -161,7 +162,7 @@ contract EXDOLLAR Token is ERC20Interface, Owned, SafeMath {
     // Token owner can approve for spender to transferFrom(...) tokens
     // from the token owner's account
     //
-    // https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md
+    //https://github.com/baneharsk/Exdollar-.git
     // recommends that there are no checks for the approval double-spend attack
     // as this should be implemented in user interfaces
     // ------------------------------------------------------------------------
