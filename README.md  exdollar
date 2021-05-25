@@ -46,8 +46,7 @@ contract SafeMath {
 
 // ----------------------------------------------------------------------------
 // ERC Token Standard #20 Interface
-// 
-https://github.com/baneharsk/Exdollar-.git
+// https://github.com/baneharsk/Exdollar-/blob/master/README.md%20%20exdollar
 // ----------------------------------------------------------------------------
 contract ERC20Interface {
     function totalSupply() public constant returns (uint);
@@ -161,9 +160,7 @@ contract EXDOLLAR Token is ERC20Interface, Owned, SafeMath {
     // ------------------------------------------------------------------------
     // Token owner can approve for spender to transferFrom(...) tokens
     // from the token owner's account
-    //
-    //https://github.com/baneharsk/Exdollar-.git
-    // recommends that there are no checks for the approval double-spend attack
+    //https://github.com/baneharsk/Exdollar-/blob/master/README.md%20%20exdollar     // recommends that there are no checks for the approval double-spend attack
     // as this should be implemented in user interfaces
     // ------------------------------------------------------------------------
     function approve(address spender, uint tokens) public returns (bool success) {
