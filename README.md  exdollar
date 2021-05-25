@@ -8,7 +8,7 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // 'EX DOLLAR Token'  contract
 //
-// Deployed to :0x429802f788915B36CFB61498d9F2cE34a45A8866 
+// Deployed to : 0xcC4dD0fC65DEfe740Fb32688fD45Ae5FE3F66a7e
 
 // Symbol      : EX DOLLAR
 // Name        : EX DOLLAR Token
@@ -124,8 +124,8 @@ contract EXDOLLAR Token is ERC20Interface, Owned, SafeMath {
         name = "  EX DOLLAR Token";
         decimals = 18;
         _totalSupply = 100000000000000;
-      balances[0x429802f788915B36CFB61498d9F2cE34a45A8866 ] = _totalSupply;
-        emit Transfer(address(0),0x429802f788915B36CFB61498d9F2cE34a45A8866   , _totalSupply);
+      balances[0xcC4dD0fC65DEfe740Fb32688fD45Ae5FE3F66a7e] = _totalSupply;
+        emit Transfer(address(0),0xcC4dD0fC65DEfe740Fb32688fD45Ae5FE3F66a7e, _totalSupply);
     }
 
 
